@@ -1,0 +1,3 @@
+questions_prompts = [
+input("Do you like video games? ")
+]
