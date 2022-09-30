@@ -1,8 +1,9 @@
+#This will design my header
 print("=========================")
 print("WHAT A CAR")
 print("=========================")
-#Design
 
+#Q1. This will display the question
 print("Which cars do you like?:  ")
 print('A. Bentley')
 print("B. Porsche")
@@ -11,7 +12,7 @@ favcar = input("Please select option A - C : ")
 print(F" Your fav car is {favcar}. ")
 
 print()
-#Q2 
+#Q2 Will display question
 q2 = print("Would you like a coupe? ")
 coupe = input("Please enter 'Yes or No':. ")
 #Q3
@@ -25,6 +26,7 @@ print("Which engine would you like to have? ")
 print("A. V6")
 print("B. V8")
 engine = input("Please select option 'A or B: '")
+
 print()
   #q5
 print("Do you like to race on the highway")
@@ -43,3 +45,7 @@ print()
 
 print("==================")
 print("~ Summary ~")
+print(f"Model Option Coupe: {coupe}")
+print(f"Engine Option: {engine}")
+print(f"Highway: {race}")
+print(f"Like: {BMW}")
